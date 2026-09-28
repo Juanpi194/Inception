@@ -104,3 +104,15 @@ To ensure the database layer is initialized, populated with relational tables, a
 docker exec -it mariadb mariadb -u[user] -p
 
 ```
+
+// -----------------------------------------------
+ADD THIS TO /etc/hosts: 127.0.0.1   jvizcain.42.fr
+AND THIS:
+
+# Crear la carpeta de secretos si no existe
+mkdir -p srcs/secrets
+
+# Crear cada archivo de contraseña (sin saltos de línea)
+echo -n "db_password_123" > srcs/secrets/db_password
+echo -n "admin_password_123" > srcs/secrets/wp_admin_password
+echo -n "user_password_123" > srcs/secrets/wp_user_password
