@@ -116,3 +116,8 @@ mkdir -p srcs/secrets
 echo -n "db_password_123" > srcs/secrets/db_password
 echo -n "admin_password_123" > srcs/secrets/wp_admin_password
 echo -n "user_password_123" > srcs/secrets/wp_user_password
+
+
+// ----------------------------------------------
+Checking ports command:
+curl -vk https://127.0.0.1:x (Replace x with the command number)
