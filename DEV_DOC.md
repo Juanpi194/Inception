@@ -15,7 +15,7 @@ Before setting up the environment, ensure the host machine matches the following
 ### Domain Name Configuration
 The services route traffic based on server names. You must map the evaluation loopback domain to the local localhost IP inside the host's network hosts file (`/etc/hosts`):
 ```text
-127.0.0.1   mapadron.42.fr
+127.0.0.1   jvizcain.42.fr
 
 ```
 
@@ -44,7 +44,7 @@ MYSQL_DATABASE=
 MYSQL_USER=
 
 # Infrastructure Context Variables
-DOMAIN_NAME=mapadron.42.fr
+DOMAIN_NAME=jvvizcain.42.fr
 
 # WordPress Application Parameters
 WORDPRESS_TITLE=

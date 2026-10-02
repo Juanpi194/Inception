@@ -61,7 +61,7 @@ Once the cluster is running, you can test system isolation and TLS compliance.
 
 1. **Verify secure connection (HTTPS)**:
 ```bash
-curl -Ik https://mapadron.42.fr
+curl -Ik https://jvizcain.42.fr
 # Expected output: HTTP/1.1 200 OK
 
 ```
@@ -69,7 +69,7 @@ curl -Ik https://mapadron.42.fr
 
 2. **Verify non-secure connection is dropped (HTTP)**:
 ```bash
-curl -Ik http://mapadron.42.fr
+curl -Ik http://jvizcain.42.fr
 # Expected output: Could not connect to server / Connection refused
 
 ```
